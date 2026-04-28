@@ -1,29 +1,38 @@
-# CodeAlpha - Data Redundancy Removal System
+# 🚀 CodeAlpha - Data Redundancy Removal System
 
 ## 📌 Project Description
-This project is a cloud-based system designed to detect and remove duplicate data efficiently. It ensures that only unique and verified data is stored in the database.
+This project is a cloud-based system designed to detect and remove duplicate data efficiently. It ensures that only unique and verified data is stored in the database, improving data accuracy and system performance.
+
+---
+
+## 🎯 Objective
+- Identify duplicate data entries  
+- Prevent redundant storage  
+- Maintain a clean and optimized database  
+
+---
 
 ## 🚀 Features
-- Detects duplicate data entries
-- Prevents redundant data storage
-- Maintains database accuracy
-- Improves system efficiency
+- 🔍 Detects duplicate data entries  
+- 🚫 Prevents redundant data storage  
+- ✅ Validates new data before insertion  
+- 🗄️ Maintains database accuracy  
+- ⚡ Improves overall system efficiency  
+
+---
 
 ## 🛠️ Technologies Used
-- Python
-- SQLite (data.db)
-- Basic cloud-based logic
+- Python  
+- SQLite (`data.db`)  
+- Basic cloud-based logic  
+
+---
 
 ## ▶️ How to Run
-1. Clone the repository
-2. Run app.py file
-3. Data will be processed and stored in database
 
-## 📂 Files Included
-- app.py
-- database.py
-- utils.py
-- data.db
+1. Download or clone this repository  
+2. Open the project folder  
+3. Run the following command:
 
-## 🎯 Internship Task
-This project is submitted as part of CodeAlpha Cloud Computing Internship (Task 1).
+```bash
+python app.py
