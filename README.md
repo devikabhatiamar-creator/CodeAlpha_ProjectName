@@ -24,7 +24,7 @@ This project is a cloud-based system designed to detect and remove duplicate dat
 ## 🛠️ Technologies Used
 - Python  
 - SQLite (`data.db`)  
-- Basic cloud-based logic  
+- Streamlit  
 
 ---
 
@@ -32,7 +32,27 @@ This project is a cloud-based system designed to detect and remove duplicate dat
 
 1. Download or clone this repository  
 2. Open the project folder  
-3. Run the following command:
+Run the app:
+streamlit run app.py
+Open in browser:
+http://localhost:8501
+📂 Project Structure
+app.py         # Main application logic  
+database.py    # Database operations  
+utils.py       # Helper functions  
+data.db        # SQLite database  
+README.md      # Project documentation  
+🧠 How It Works
+User inputs data
+System compares it with existing database records
+If duplicate → rejected
+If unique → stored successfully
+📸 Screenshots
 
+🎯 Internship Task
+
+This project is submitted as part of the CodeAlpha Cloud Computing Internship
+Task 1: Data Redundancy Removal System
+3. Install dependencies:
 ```bash
-python app.py
+pip install streamlit
